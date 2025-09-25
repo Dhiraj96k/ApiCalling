@@ -54,7 +54,7 @@ export default function UserLogin() {
                     />
                 </div>
 
-                <button type="submit" style={{ padding: "10px 15px" }}>
+                <button type="submit" style={{ padding: "10px 15px" }} onClick={handleSubmit}>
                     Login
                 </button>
             </form>
